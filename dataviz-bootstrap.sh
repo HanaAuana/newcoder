@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-
-sudo apt-get -y install libpng-dev
+echo "Installing lib png and freetype"
+sudo apt-get -y install libpng12-dev
 sudo apt-get -y install libfreetype6-dev
-pip install numpy
-pip install matplotlib
-pip install geojson
+echo "Installing numpy"
+sudo pip install numpy
+echo "Installing matplotlib"
+sudo pip install matplotlib
+echo "Installing geojson"
+sudo pip install geojson
